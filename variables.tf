@@ -157,4 +157,3 @@ variable "repository_kms_key_alias" {
   type        = string
   default     = null
 }
-
