@@ -30,5 +30,7 @@ No modules.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_cache_rule_id"></a> [cache\_rule\_id](#output\_cache\_rule\_id) | The ID of the ECR Pull Through Cache Rule |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->

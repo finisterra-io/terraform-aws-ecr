@@ -33,5 +33,7 @@ No modules.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_policy_id"></a> [policy\_id](#output\_policy\_id) | The ID of the ECR Registry Policy |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
