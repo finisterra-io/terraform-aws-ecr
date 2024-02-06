@@ -33,5 +33,7 @@ No modules.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_replication_configuration_id"></a> [replication\_configuration\_id](#output\_replication\_configuration\_id) | The ID of the ECR Replication Configuration |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
