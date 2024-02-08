@@ -148,8 +148,12 @@ resource "aws_ecr_repository" "this" {
 
   force_delete = var.repository_force_delete
 
-  image_scanning_configuration {
-    scan_on_push = var.repository_image_scan_on_push
+
+  dynamic "image_scanning_configuration" {
+    for_each = var.repository_image_scan_on_push != null ? [1] : []
+    content {
+      scan_on_push = var.repository_image_scan_on_push
+    }
   }
 
   tags = var.tags
