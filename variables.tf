@@ -53,7 +53,7 @@ variable "repository_kms_key" {
 variable "repository_image_scan_on_push" {
   description = "Indicates whether images are scanned after being pushed to the repository (`true`) or not scanned (`false`)"
   type        = bool
-  default     = null
+  default     = true
 }
 
 variable "repository_policy" {
