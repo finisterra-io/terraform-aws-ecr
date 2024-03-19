@@ -134,7 +134,8 @@ data "aws_iam_policy_document" "repository" {
 ################################################################################
 # Repository
 ################################################################################
-
+#Already defined in "aws_ecr_registry_scanning_configuration" "this"
+#trivy:ignore:avd-aws-0030
 resource "aws_ecr_repository" "this" {
   count = local.create_private_repository ? 1 : 0
 
